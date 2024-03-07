@@ -1,0 +1,79 @@
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/monthly-emojis/monthly-emojis-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.calender-container {
+  background-color: #42404d;
+  padding: 20px;
+}
+.calender {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 20px;
+}
+.dates-container {
+  display: flex;
+  flex-direction: column;
+}
+.january-heading {
+  text-align: center;
+}
+
+.right-side-container {
+  margin-left: 20px;
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #42404d;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.emojis-count-container {
+  background-color: #42404d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selection-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.emojis-selection-container {
+  margin-right: 30px;
+}
+.days-selection-container {
+}
+.res-count {
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

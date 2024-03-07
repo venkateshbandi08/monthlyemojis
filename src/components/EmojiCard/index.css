@@ -1,0 +1,28 @@
+.each-emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-style {
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  width: 50px;
+}
+.emoji-name {
+  color: #ffffff;
+}
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
